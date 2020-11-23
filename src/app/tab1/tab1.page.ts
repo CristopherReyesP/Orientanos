@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
 @Component({
   selector: 'app-tab1',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+
+
 
 }
